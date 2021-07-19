@@ -10,10 +10,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter Bank App',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
-        primaryColor: Color(0xff0D0F35),
+        primaryColor: Color(0xFF5B628F),
         accentColor: Color(0xffB4C5E5),
         backgroundColor: Color(0xffE9F0FB),
       ),
